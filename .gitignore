@@ -95,3 +95,7 @@ fastlane/README.md
 #
 #
 .idea/
+
+# Accio dependency management
+Dependencies/
+.accio/
