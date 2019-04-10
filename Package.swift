@@ -14,7 +14,7 @@ let package = Package(
             dependencies: [
                 "SimpleKeychain",
             ],
-            path: "Auth0"
+            path: "App"
         ),
     ]
 )
