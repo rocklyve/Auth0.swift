@@ -7,10 +7,14 @@ let package = Package(
     products: [
         .library(name: "Auth0", targets: ["Auth0"])
     ],
+    dependencies [
+        .package(url: "https://github.com/rocklyve/SimpleKeychain.git", .branch("accioSupport")),
+    ],
     targets: [
         .target(
             name: "Auth0",
-            path: "Auth0"
+            dependencies: ["SimpleKeychain"],
+            path: "App"
         )
     ]
 )
